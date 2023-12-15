@@ -1,0 +1,42 @@
+.Soda{
+    background-color: white;
+    color: white;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.Soda p{
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    -moz-border-radius:10px;  /* for Firefox */
+    -webkit-border-radius:10px; /* for Webkit-Browsers */
+    border-radius:10px; 
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 20%;
+    padding: 20px;
+}
+
+.Soda a, .Soda a:link, .Soda a:visited, .Soda a:active {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.Soda a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.Soda-img-left{
+    position: absolute;
+    top: 27%;
+    left: 10%;
+
+}
+.Soda-img-right{
+    position: absolute;
+    top: 27%;
+    right: 10%;
+}
+

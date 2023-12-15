@@ -1,0 +1,47 @@
+.Home{
+    height: 100%;
+    display: flex;
+    color: white;
+    font-weight: bolder;
+    font-size: 35px;
+    justify-content: space-between;
+    margin: auto;
+    background-image: url("../public/vending_machine.png");
+    background-repeat: no-repeat; 
+    background-color: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.Home div{
+    -moz-border-radius:10px;  /* for Firefox */
+    -webkit-border-radius:10px; /* for Webkit-Browsers */
+    border-radius:10px; 
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 50px;
+    margin: auto 0;
+}
+
+.Home-div{
+    width: 30%;
+}
+
+.Home-nav{
+    display: grid;
+    width: 25%;
+}
+
+.Home-nav a, .Home-nav a:link, .Home-nav a:visited, .Home-nav a:active {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.Home-nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+

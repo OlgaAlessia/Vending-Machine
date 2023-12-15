@@ -1,0 +1,46 @@
+.Chips{
+    background-color: white;
+    height: 100%;
+    color: white;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.Chips-div{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    -moz-border-radius:10px;  /* for Firefox */
+    -webkit-border-radius:10px; /* for Webkit-Browsers */
+    border-radius:10px; 
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    padding: 20px;
+    z-index: 40;
+}
+
+.Chips-btn{
+    padding: 10px;
+    background-color: orangered;
+    border-radius:5px; 
+    color: black;
+    font-size: 15px;
+    border: 0;
+    margin-bottom: 10px;
+}
+
+.Chips a, .Sardines a:link, .Sardines a:visited, .Sardines a:active {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.Chips a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.Chips-area{
+    width: 100%;
+    height: 100%;
+}
